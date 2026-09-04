@@ -21,7 +21,7 @@ This is a project analyzing the effect of AI suggestions and suggestion-type on 
 │   └── ...
 │
 ├── DATA_DIR/
-│   ├── synthetic_data/             ← chromatogram data with 4 different types (see synthetic_chromatogram_datasets repository to see generation details)
+│   ├── synthetic_data/             ← chromatogram data with 4 different types (see synthetic_chromatogram_datasets repository for generation details)
 │   │   ├── control_chromatograms/
 │   │   │   ├── annotations/
 │   │   │   ├── chromatograms/
@@ -42,14 +42,14 @@ This is a project analyzing the effect of AI suggestions and suggestion-type on 
 │   │       ├── chromatograms/
 │   │       └── detections/
 │   │
-│   └── tuned_parameters_summary.json   ← AI detection parameters (see synthetic_chromatogram_datasets repository to see generation details)
+│   └── tuned_parameters_summary.json   ← AI detection parameters (see synthetic_chromatogram_datasets repository for generation details)
 │
-├── analyze_accuracy.py             ← runs statistical tests to see condition results in accuracy (per-chromatogram F1, recall, precision, mean IOU results)
-├── analyze_edits_vs_accuracy.py    ← runs statistical tests to see number of annotation edits vs accuracy scores
-├── analyze_edits_vs_survey.py      ← runs statistical tests to see number of annotation edits vs engagement survey results
-├── analyze_edits_vs_tlx.py          ← runs statistical tests to see number of annotation edits vs nasa tlx workload scores
-├── analyze_tlx.py                   ← runs statistical tests to see condition results in workload
-└── factorial_common.py              ← helper functions for analysis scripts
+├── analyze_accuracy.py             ← statistical tests for condition effects on accuracy (per-chromatogram F1, recall, precision, and mean IoU)
+├── analyze_edits_vs_accuracy.py    ← statistical tests relating number of annotation edits to accuracy scores
+├── analyze_edits_vs_survey.py      ← statistical tests relating number of annotation edits to engagement survey results
+├── analyze_edits_vs_tlx.py         ← statistical tests relating number of annotation edits to NASA-TLX workload scores
+├── analyze_tlx.py                  ← statistical tests for condition effects on workload
+└── factorial_common.py             ← helper functions shared across analysis scripts
 
 ## Getting Started
 ### Prerequisites & Needed Materials 
