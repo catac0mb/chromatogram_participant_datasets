@@ -9,7 +9,7 @@ In-progress analysis of the effect of AI suggestions and suggestion-type on anal
 This is a project analyzing the effect of AI suggestions and suggestion-type on analyst accuracy, engagement, workload, and interaction. It includes studies with the aforementioned conditions as well as python scripts for analyzing the participant data. Its goal is to examine the impact of AI suggestions and the types of explanations provided with AI suggestions, with conditions increasing in amount of presented information to the user. It is connected to the Peak Annotator repositiory, which is the interface presented as the study.
 
 ## Repo Structure
-
+```
 ├── AI_comparison_participants/     ← participant data from study comparing AI conditions
 │   ├── participant_1.json
 │   ├── participant_2.json
@@ -50,6 +50,7 @@ This is a project analyzing the effect of AI suggestions and suggestion-type on 
 ├── analyze_edits_vs_tlx.py         ← statistical tests relating number of annotation edits to NASA-TLX workload scores
 ├── analyze_tlx.py                  ← statistical tests for condition effects on workload
 └── factorial_common.py             ← helper functions shared across analysis scripts
+```
 
 ## Getting Started
 ### Prerequisites & Needed Materials 
