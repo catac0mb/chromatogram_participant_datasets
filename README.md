@@ -1,5 +1,5 @@
 # chromatogram_participant_datasets
-This repository contains participant data from studies involving peak detection in chromatograms and human subjects.
+This repository contains participant data and analysis scripts from studies involving peak detection in chromatograms and human subjects.
 
 ## Status 
 In-progress analysis of the effect of AI suggestions and suggestion-type on analyst accuracy, engagement, workload, and interaction. Currently includes participant data from two user studies: 1) manual annotation (no_ai) vs annotation with AI peak location suggestions (peaks_only) and 2) annotation with AI peak location suggestions (peaks_only), location suggestions and confidence (confidence), location suggestions and bars indicating features (bars_only), and location suggestions, bars, and confidence (threshold_bars).
